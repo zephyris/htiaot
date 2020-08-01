@@ -6,4 +6,6 @@ Wheeler, Gull and Gluenz (2012) "Detailed interrogation of trypanosome cell biol
 
 Originally published online at: http://users.ox.ac.uk/~path0493/ and mirrored at: http://richardwheeler.net/htiaot
 
-The script itself is the file htiaot\thetool\TheTool16.txt Install in ImageJ (https://imagej.nih.gov/ij/) using Plugins>Macros>Install...
+The script itself is htiaot.ijm
+Install in ImageJ (https://imagej.nih.gov/ij/) using Plugins>Macros>Install...
+View the supporting documentation via htiaot/index.html
