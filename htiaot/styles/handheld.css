@@ -1,0 +1,20 @@
+div.wrap {
+  width: 100%;                                                 /*Max width for handhelds*/
+}
+div.main {
+  float: none;                                                 /*No float for handhelds*/
+  width: 95%;                                                  /*Max width for handhelds*/
+}
+div.sidebar {
+  float: none;                                                 /*No float for handhelds*/
+  width: 95%;                                                  /*Max width for handhelds*/
+
+  text-align: left;                                            /*Align sidebar left for handhelds*/
+
+  border-left: 1px solid #000;                                 /*Border to match main for handhelds*/
+  border-right: none;                                          /*Border to match main for handhelds*/
+}
+div.code {
+  height: auto;                                                /*Auto height for handhelds*/
+  overflow: visible;                                           /*Max height+overflow for handhelds*/
+}

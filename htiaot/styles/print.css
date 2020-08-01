@@ -1,0 +1,11 @@
+div.main {
+  width: 95%;                                                  /*Increased width for print*/
+}
+div.sidebar {
+  visibility: hidden;                                          /*Hidden for print*/
+  width: 0px;                                                  /*Zero width for print*/
+}
+div.code {
+  height: auto;                                                /*Auto height for print*/
+  overflow: visible;                                           /*No forced size+scroll bar for print*/
+}

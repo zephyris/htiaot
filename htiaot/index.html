@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+      <link rel="stylesheet" media="screen and (min-device-width: 481px)" href="./styles/main.css" type="text/css" />
+      <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="./styles/handheld.css" type="text/css" />
+      <link rel="stylesheet" media="handheld" href="./styles/handheld.css" type="text/css" />
+      <link rel="stylesheet" media="print" href="./styles/print.css" type="text/css" />
+      <link rel="stylesheet" media="projection,tv" href="./styles/main.css" type="text/css" />
+      <!--[if IE]><link rel="stylesheet" media="screen" href="./styles/main.css" type="text/css" /><![endif]-->
+      <title>HTIAOT - High-Throughput Image Analysis of Trypanosomes</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="description" content="Science and illustration by Richard Wheeler" />
+      <meta name="keywords" content="science, trypanosome, trypanosoma, trypanosomatid, trypanosoma, leishmania, major, mexicana, brucei, flagellum, cruzi, cell, biology, automated, high, throughput, image, analysis, richard, wheeler, zephyris" />
+      <meta name="author" content="Richard Wheeler" />
+   </head>
+
+  <body>
+      <div class="wrap">
+      <!-- Header -->
+         <div class="main">
+            <h1>HTIAoT</h1>
+            <h2>High-Throughput Image Analysis of Trypanosomes</h2>
+			<p><img src="./images/header.jpg" alt="header"></img></p>
+         </div>
+
+         <!-- Main -->
+         <div class="main">
+            <p>"HTIAoT" is a set of protocols and tools for double DNA staining of trypanosomes, colour deconvolution to separate the kinetoplast and nucleus signal, and high throughput image analysis of trypanosomes using this foundation. These tools are written in the macro language of <a href="http://rsbweb.nih.gov/ij/">ImageJ</a>, a free and open source piece of scientific image analysis software.</p>
+			<p>These techniques and tools be used on many species of trypanosome, <i>Leishmania</i>, <i>Crithidia</i>, etc. If you are using these tools or techniques please cite the corresponding paper: <a href="http://www.biomedcentral.com/1741-7007/10/1/abstract">Wheeler RJ, Gull K, Gluenz E (2012) "Detailed interrogation of trypanosome cell biology via differential organelle staining and automated image analysis" BMC Biology, <b>10</b>:1</a>.</p>
+
+            <h2><a name="downloads">Downloads:</a></h2>
+            <p style="clear:both" ><a href="./htiaot/thetool/TheTool16.txt"><img src="./images/thetool.png" alt="thumbnail" class="thumbnail" style="float: left; margin: 4px;" /><b>ImageJ macros</b></a></br>The automated analysis tools (released under the <a href="./htiaot/gpl-3.0.txt">GNU general public license 3</a>). This macro set needs to be installed in ImageJ to perform colour deconvolution and automated analysis.</p>
+            <p style="clear:both" ><a href="./htiaot/Example_Images.zip"><img src="./images/egimgs.jpg" alt="thumbnail" class="thumbnail" style="float: left; margin: 4px;" /><b>Example images</b></a></br>Examples of what a well-prepared sample should look like. Two tif format images of procyclic <i>T. brucei</i>. Each image includes three slices, DAPI fluorescence (slice 1), PI fluorescence (slice 2) and phase contrast (slice 3).</p>
+            <p style="clear:both" ><a href="./htiaot/Sample_Preparation.pdf"><img src="./images/slideprep.png" alt="thumbnail" class="thumbnail" style="float: left; margin: 4px;" /><b>Sample preparation guidelines</a></b></br>Protocols and tips for sample preparation and image capture. Covers sample fixing, permeabilisation and staining and micrograph capture including common problems.</p>
+            <p style="clear:both" ><a href="./htiaot/Image_Analysis.pdf"><img src="./images/imganal.png" alt="thumbnail" class="thumbnail" style="float: left; margin: 4px;" /><b>Image analysis instructions</a></b></br>Detailed instructions for performing colour deconvolution and an automated analysis of micrographs. Walks through the different tools used for an automated analysis step-by-step.</p>
+            </br>
+
+			<h2 style="clear:both" ><a name="info">Further Information:</a></h2>
+			<p style="clear:both" ><a href="http://www.biomedcentral.com/1741-7007/10/1/abstract"><img src="./images/paper.png" alt="thumbnail" class="thumbnail" style="float: left; margin: 4px;" /><b>The paper</b></a></br>Wheeler RJ, Gull K, Gluenz E (2012) "Detailed interrogation of trypanosome cell biology via differential organelle staining and automated image analysis" BMC Biology, <b>10</b>:1</p>
+			<p style="clear:both" ><a href="./htiaot/Image_Analysis_Presentation.pdf"><img src="./images/presentation.jpg" alt="thumbnail" class="thumbnail" style="float: left; margin: 4px;" /><b>The presentation</b></a></br>"Beyond just counting Ks and Ns; high throughput image analysis of trypanosomatid cell organisation" presented at the <a href="http://www.mbl.edu/kmcb/2011/kmcb_book_single.pdf" >2011 Kinetoplastid Molecular Cell Biology Meeting</a></p>
+			<p style="clear:both" ><a href="./htiaot/Image_Analysis_Poster.pdf"><img src="./images/poster.png" alt="thumbnail" class="thumbnail" style="float: left; margin: 4px;" /><b>The poster</b></a></br>"High throughput image analysis of trypanosomatids - differential DNA staining and colour deconvolution", presented at the 2011 <a href="https://workspace.imperial.ac.uk/cisbic/Public/BBSRC%20GHW%20Booklet%205-7%20Jan%202011.pdf" > BBSRC 5 Annual Systems Biology Grant Holders' Workshop</a></p>
+
+			<h2 style="clear:both" ><a name="notes">Notes:</a></h2>
+            <p style="clear:both" >These automated analysis tools can collect a huge quantity of information very quickly, however to use them you will need some understanding of how the automated analysis works in order to be able to troubleshoot any issues.
+            For more information about analysis and troubleshooting problems see the detailed instructions for <a href="./htiaot/Image_Analysis.pdf">image analysis</a>.
+            You will also need to prepare samples with care. While a computer is far faster at quantitative analyses than a person it is also far less "clever"; problems with sample preparation will disrupt the automatic analysis.
+            For more information about sample preparation see guidelines for <a href="./htiaot/Sample_Preparation.pdf">sample preparation and image capture</a>.
+            You can download some <a href="./htiaot/Example_Images.zip">example images</a> to try out the software without worrying about sample preparation. These images also give an idea of what a good sample for automated analysis looks like.</p>
+         </div>
+
+         <!-- Main sidebar -->
+         <div class="sidebar">
+            <ul class="navbar">
+			   <li><a href="http://users.ox.ac.uk/~path0389/">Gluenz Lab</a></li>
+			   <li><a href="http://users.path.ox.ac.uk/~kgull/index.htm">Gull Lab</a></li>
+               <li><a href="http://www.richardwheeler.net/contentpages/index.php">Richard Wheeler</a></li>
+               <li><a href="http://www.richardwheeler.net/contentpages/contact.php">Contact Form</a></li>
+               <li><a href="http://www.richardwheeler.net/contentpages/contactdetails.php">Contact Details</a></li>
+            </ul>
+         </div>
+
+         <!-- Footer -->
+         <div class="main">
+            <p>If you have any questions or problems please <a href="http://www.richardwheeler.net/contentpages/contact.php">get in touch</a>.
+         </div>
+
+      </div>
+   </body>
+</html>
